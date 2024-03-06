@@ -1,0 +1,28 @@
+server:
+  port: 8081
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5433/postgres
+    password: 123
+    username: postgres
+
+  application:
+    name: DepartmentService
+    jpa:
+    hibernate:
+      ddl-auto: update
+
+  jpa:
+    show-sql: true
+
+
+#
+#
+#spring:
+#datasource:
+#url: jdbc:postgresql://localhost:5433/pdp
+#password: 123
+#username: pdp
+#jpa:
+#hibernate:
+#ddl-auto: update

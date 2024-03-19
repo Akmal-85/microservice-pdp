@@ -6,15 +6,16 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.web.client.RestTemplate;
 
 @SpringBootApplication
+@EnableEurecaClient
 public class UserServiceApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(UserServiceApplication.class, args);
     }
-@Bean
-public RestTemplate restTemplate(){
-        return  new RestTemplate();
-}
+//@Bean
+//public RestTemplate restTemplate(){
+//        return  new RestTemplate();
+//}
 
 }
 
